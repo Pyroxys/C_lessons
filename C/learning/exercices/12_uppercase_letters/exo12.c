@@ -2,10 +2,27 @@
 
 int main() {
 
+    // First methode
+  char letter;
+  const int OFFSET = 'A' - 'a';
+
+  // read user input
+  printf( "Please enter an undercase letter: " );
+  scanf( "%c", &letter );
+
+  // display the uppercase letter
+  printf( "Here is the uppercase letter: %c", ( letter + OFFSET ) );
+
+  return 0;
+
+// Seconde methode
+
+
+    /*
     char letter[100];
     int i;
 
-    printf("Enter an letter : ");
+    printf("Enter an letter: ");
     scanf("%s", &letter);
     
     // Pour i vaut 0, lettre à l'index i est différent de la fin du caractère de fin '\0', i++ 
@@ -17,7 +34,12 @@ int main() {
         }
     }
 
-    printf("In Uppercase is this : %s\n", letter);
+    printf("In Uppercase is this: %s\n", letter);
 
     return 0;
+    */
+
+  
 }
+
+

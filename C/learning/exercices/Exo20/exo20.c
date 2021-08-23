@@ -5,7 +5,7 @@ int main() {
 
     double number;
 
-    printf("Please enter a integer number : ");
+    printf("Please enter a integer number: ");
     scanf("%lf", &number);
 
     double result = sqrt(number);

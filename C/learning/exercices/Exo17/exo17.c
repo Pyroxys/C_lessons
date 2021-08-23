@@ -4,7 +4,7 @@ int main() {
 
     int age;
     int choice;
-    printf("What do you want drink ?\n nothing\n coke\n beer\n coffee\n : ");
+    printf("What do you want drink ?\n nothing\n coke\n beer\n coffee\n: ");
     scanf("%d", &choice);
 
     switch(choice)
@@ -28,7 +28,7 @@ int main() {
         printf("Ok coffee !");
         break;
     default:
-        printf("Have not this sorry");
+        printf("I don't have that, sorry");
         break;
     }
     return 0;

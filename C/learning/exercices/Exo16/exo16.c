@@ -4,7 +4,7 @@ int main() {
 
     int days;
 
-    printf("Enter a numbers od the days weekdays : ");
+    printf("Enter a number for the days of the week: ");
     scanf("%d", &days);
 
     switch(days)

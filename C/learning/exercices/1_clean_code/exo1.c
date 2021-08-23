@@ -3,7 +3,7 @@
 
 int main(){
 
-    printf("Exercice Programme de base\n");
+    printf("Basic Exercices in C\n");
     printf("\tHello World!\n");
 
     return 0;

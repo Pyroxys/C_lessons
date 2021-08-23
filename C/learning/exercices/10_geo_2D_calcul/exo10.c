@@ -8,8 +8,8 @@ int main() {
     float resultP;
     float resultArea;
 
-    printf("Please enter the Heigth and Width of triangle : ");
-    scanf("%d%d", &nb1, &nb2);
+    printf("Please enter the Heigth and Width of the rectangle: ");
+    scanf("%d %d", &nb1, &nb2);
 
     resultP = (2 * nb1 + 2 * nb2);
 

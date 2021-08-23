@@ -16,7 +16,7 @@ int main() {
 
     // Début des calcules du cercle     
 
-    printf("Please enter the radius : ");
+    printf("Please enter the radius: ");
     scanf("%d", &radius);
 
     resultDiameter = (radius * 2);
@@ -37,7 +37,7 @@ int main() {
 
     // Début des calcules du cyindre  
 
-    printf("Please enter the heigth of volume : ");
+    printf("Please enter the heigth of volume: ");
     scanf("%d", &hVolume);
 
     resultCylinder = M_PI * (powerful * hVolume);
@@ -48,7 +48,7 @@ int main() {
 
     // Début des calcules d'un cône  
 
-    printf("Please enter the volume of cone : ");
+    printf("Please enter the volume of cone: ");
     scanf("%d", &cone);
 
     resultConeVolume = M_PI * (powerful * hVolume) / 3;

@@ -4,9 +4,8 @@ int main() {
 
     int var1 = 123;
     int var2 = 18;
-    int var3;
 
-    var3 = var1;
+    int var3 = var1;
     var1 = var2;
     var2 = var3;
 
