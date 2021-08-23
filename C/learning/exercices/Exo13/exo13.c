@@ -4,14 +4,14 @@ int main() {
 
     int age;
 
-    printf(" Enter your age please : \n");
+    printf("Enter your age please: \n");
     scanf("%d", &age);
 
     if(age >= 18 ) {
         printf("Your are major\n");
     } else {
-        printf("Your are not major");
+        printf("Your are underage");
     }
 
     return 0;
-}
+}   
