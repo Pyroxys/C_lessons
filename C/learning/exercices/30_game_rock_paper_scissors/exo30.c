@@ -19,7 +19,7 @@ int main() {
 
     srand(time(NULL));   
 
-    do // bouvle de jeu 
+    do // boucle de jeu 
     {
         do
         {
