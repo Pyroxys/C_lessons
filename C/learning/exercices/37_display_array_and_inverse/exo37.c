@@ -7,7 +7,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
           printf("My table: %d\n ", tab[i]);
     }
-    printf("\nInverse: ");
+    printf("\nInverse:\n ");
 
     for (int i = 4; i >= 0; i--) {
           printf("My table: %d\n ", tab[i]);
