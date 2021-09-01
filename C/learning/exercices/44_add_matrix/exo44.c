@@ -51,7 +51,7 @@ int main() {
         }
    }
 
-    for(int h = 0; h < sizeV2; h++) {
+   for(int h = 0; h < sizeV2; h++) {
         // Boucle for qui correspond aux colonnes 
         for(int g = 0; g < sizeV2; g++) {
               printf("%d ",matrixV2[h][g]);
